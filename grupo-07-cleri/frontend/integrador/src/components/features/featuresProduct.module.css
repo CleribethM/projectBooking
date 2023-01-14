@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.containerFeature{
+    width: 100%;    
+    height: 100%;
+    padding: 20px 0;
+}
+
+.block{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    /* margin-top: 3%; */
+    row-gap: 25%;
+    width: 100%;
+    height: 100%;
+    text-align: start;
+    padding-left: 10px;
+    padding: 15px;
+}
+
+.feature{
+    /* padding: 0 6%; */
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+   
+}
+
+.title{
+    color: var(--var-avatar);
+    text-align: left;
+    font-size: 1em;
+    padding: 40px 0 10px 5px;
+    border-bottom: solid 0.01px var(--var-btn);
+    
+}
+
+.iconFeature{
+    padding-right: 10px;
+    color: #1dbeb4;
+}
+
+.iconCard{
+    padding-right: 10px;
+    color: var(--var-avatar); 
+}
+
+.iconFeature p{
+    color: var(--var-avatar);    
+}
+
+
+@media (min-width: 460px){
+    .block{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        row-gap: 50%;
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 821px){
+    .block{
+        margin-top: 1.5%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto;
+        row-gap: 10px;
+        padding-left: 40px;
+    }
+
+    .feature{
+        padding: 0 9%;
+        font-size: 14px;
+    }
+}

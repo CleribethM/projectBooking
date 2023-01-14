@@ -1,0 +1,12 @@
+.marginDays{
+    margin: 0;
+}
+
+.calendarContainer{
+    margin: 0 auto;
+}
+
+
+.calendarBook select{
+    visibility: hidden;
+}

@@ -1,0 +1,26 @@
+stages:
+    - pipeline
+
+backend:
+    stage: pipeline
+    only:
+        changes:
+            - backend/HospedajeDH/**/*
+    trigger:
+        include: backend/HospedajeDH/.gitlab-ci.yml
+
+frontend:
+    stage: pipeline
+    only:
+        changes:
+            - frontend/integrador/**/*
+    trigger:
+        include: frontend/integrador/.gitlab-ci.yml
+
+#infra:
+#    stage: pipeline
+#    only:
+#        changes:
+#            - infra/**/*
+#    trigger:
+#        include: infra/.gitlab-ci.yml

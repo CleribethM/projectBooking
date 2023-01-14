@@ -1,0 +1,109 @@
+image:
+  name: hashicorp/terraform:light
+  entrypoint:
+    - '/usr/bin/env'
+    #- 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    - ‘PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY} AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}’
+
+variables:
+  TF_ROOT: ${CI_PROJECT_DIR}/infra
+
+before_script:
+  - cd ${TF_ROOT}
+  - rm -rf .terraform
+  - terraform --version
+  - export AWS_ACCESS_KEY_ID
+  - export AWS_SECRET_ACCESS_KEY
+  - terraform init
+
+stages:
+  - validate
+  - plan
+  - apply
+  - destroy
+
+validate:
+  stage: validate
+  only:
+    changes:
+      - infra/**/*
+  script:
+    - terraform validate
+
+plan:
+  stage: plan
+  only:
+    changes:
+      - infra/**/*  
+  script:
+    - terraform plan -out "planfile"
+  dependencies:
+    - validate
+  artifacts:
+    paths:
+      - ${TF_ROOT}/planfile
+
+apply:
+  stage: apply
+  only:
+    changes:
+      - infra/**/*    
+  script:
+    - terraform apply -input=false "planfile"
+  dependencies:
+    - plan
+  when: manual
+
+destroy-infra:
+  stage: destroy
+  only:
+    changes:
+      - infra/**/*    
+  script:
+    - terraform destroy -state="planfile" -auto-approve
+  dependencies:
+    - plan
+  when: manual
+
+# stages:          
+#   - init_terraform
+#   - test
+#   - deploy
+
+# tf_init:       
+#   stage: build
+#   only:
+#     changes:
+#       - infra/**/*  
+#   script:
+#     - mkdir build
+#     - cd build
+#     - touch car.txt
+#     - echo "chassis" >> car.txt
+#     - echo "engine" >> car.txt
+#     - echo "wheels" >> car.txt
+#     - echo "Compiling the code..."
+#   artifacts:
+#     paths:
+#       - build/
+
+# test-infra:   
+#   stage: test
+#   only:
+#     changes:
+#       - infra/**/*      
+#   script:
+#     - echo "Running unit tests..."
+#   dependencies:
+#     - build-infra
+
+
+# deploy-infra:      
+#   stage: deploy  
+#   only:
+#     changes:
+#       - infra/**/*  
+#   script:
+#     - echo "Deploying application..."
+#   dependencies:
+#     - test-infra
