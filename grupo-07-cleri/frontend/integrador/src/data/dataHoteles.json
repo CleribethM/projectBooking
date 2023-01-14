@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "description": "807.567",
+        "title": "Hoteles ",
+        "url": "https://www.palladiumhotelgroup.com/content/dam/palladium/content-fragments/hoteles/es/trs-ibiza-hotel/galeria/imagenes/hotel/02-TRS-IBIZA-PISCINA-GAIA_MG_6077-min.jpg.transform/rendition-md/image.jpg"
+    },
+    {
+        "id": "2",
+        "description": "100.583",
+        "title": "Hosteles ",
+        "url": "https://descubreteviajando.com/wp-content/uploads/2016/09/001.jpg"
+    },
+    {
+        "id": "3",
+        "description": "300.258",
+        "title": "Departamentos ",
+        "url": "https://www.zonaprop.com.ar/noticias/wp-content/uploads/2016/08/depto.jpg"
+    },
+    {
+        "id": "4",
+        "description": "70.258",
+        "title": "Bed and Breakfast ",
+        "url": "https://static.hosteltur.com/app/public/uploads/img/articles/2015/08/01/L_5b14fe49e7f2c_breakfast.jpg"
+    }
+]

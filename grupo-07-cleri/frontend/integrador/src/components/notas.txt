@@ -1,0 +1,79 @@
+componente Search:
+
+
+Deshabilitar calendar desde click en window =>Se saca desde Calendar
+
+ORDENAR CIUDADES ALFABETICAMENTE
+
+sacar al select / option el formato (-moz-appearance: none;
+    -webkit-appearance: none;) NO SE PUEDE HACIENDO CON SELECT
+
+responsive
+RESUELTO: modificar calendar de vertical a horizantal con responsive
+agregue un window.eventListener
+
+****Eventos del Header****
+Con react router dom
+Use el hook useNavigate para redireccionar usuario logueado
+y con useParams pase el usuario para que lo tome en el header
+
+
+***** botones de inicio de sesion style****
+
+*****Login****
+usamos useContext para guardar en Auth el acceso, esto envuelve el componente app ya que aplica
+a toda la app (en index.js)
+con useContext puedo obtener el nombre y apellido para mostrarlo en el header
+una vez logueado
+
+register
+endPoint: auth/register
+
+post:
+{
+    "name":"",
+    "lastname":"",
+    "email":"",
+    "password":""
+}
+
+responde:
+{
+    "accesstoken":""
+}
+
+Login
+endPoint: auth/login
+
+post:
+{
+    "email":"",
+    "password":""
+}
+
+responde:
+{
+    "accesstoken":""
+}
+
+
+Para eso creamos dos hooks que me permiten acceder al context
+
+COnsultas: input search Ciudades
+
+Carrusel: npm install react-slick --save
+
+*************************************************************
+Dar funcionalidad al botón de reserva en página de detalle de producto:
+
+Al dar clic en el botón de reserva en página de detalle de producto debe chequear si la persona usuaria está logueada.
+ver si extiste el currentUser
+No logueada: Redirigir al bloque login: usamos el hook useLocation y pasamos por location.state el idProducto
+
+El login debe contener un texto en su parte superior que indique que el login es obligatorio y que en caso de no estar registrada, la persona usuaria deberá registrarse.
+
+Logueada: Redirigir a la página de reserva del producto a reservar. redirige a la pagina con el ID producto que recibio por State
+
+A resolver: Crear Producto: 
+2) cuando se renderiza en recomendados siempre sale Tandil y desp se refresca la pagina
+3) que tome los iconos

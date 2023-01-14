@@ -1,0 +1,121 @@
+
+.categorys h2 {
+    color: #383B58;
+    padding: 10px 40px;
+    text-align: left;
+  }
+  
+  .containerCards {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .producto {
+    align-content: space-around;
+    /* border: 1px solid #F3F1ED; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: small;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 49%;
+    cursor: pointer;
+  }
+
+  .linkto{
+    text-decoration: none;
+  }
+
+.producto:hover{    
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+  transition:0.3s;
+}
+  
+  
+  .producto img {
+    width: 100%;
+    height: 233px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .infoCategory {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: auto;
+    color: #383B58;
+    font-size: 18px;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 11px 20px;
+  }
+
+  .infoCategory h3{
+    font-size: 20px;
+  }
+
+  .infoCategory p{
+    font-size: 14px;
+  }
+  
+  
+  .scrollBlock{
+    overflow: hidden;
+  }
+  
+  @media (max-width:820px){
+
+    .containerCards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .producto{
+       width: 40%;
+    }
+  }
+/*
+  @media (min-height:768px) {
+
+    .containerCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+    .producto{
+        width: 48%;
+     }
+  }
+
+*/
+  @media (max-width: 500px){
+
+    .containerCards{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+    .producto{
+        width: 90%;
+     }
+
+  }

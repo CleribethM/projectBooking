@@ -1,0 +1,9 @@
+.starsContainer{
+    display: flex;
+    flex-direction: row;
+    color: var(--var-btn);
+  }
+
+  .star{
+    color:#1DBEB4;
+  }

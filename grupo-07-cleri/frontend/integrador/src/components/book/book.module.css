@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.container{
+    background-color: rgba(201, 201, 201, 0.281);
+    
+    margin-bottom: 50px;
+
+}
+
+
+
+.productHeader{    
+    width: 100%;
+    background-color: var(--var-bg); 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    
+}
+
+.productHeader p, .productHeader h2{
+   color: var(--var-white);
+   text-align: left;
+   padding: 0 0 0 10px; /*mobile*/
+   font-family: 'Quicksand', sans-serif;
+   font-size: 1em;
+   
+}
+
+.productHeader span{
+   color: var(--var-white);
+   padding-right: 20px; /*mobile*/
+   font-size: 24px; /*mobile*/
+  }
+  
+  
+
+.productHeader span a{
+    color: var(--var-white);
+    text-decoration: none;
+}
+
+
+.bookTitle h2{   
+    text-align: left;
+    padding: 0 0 0 10px; /*mobile*/
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+}
+
+.formContainer, .selectContainer{
+    background-color: var(--var-white);
+    width: 90%;
+    align-items: flex-start;
+    color: var(--var-formFont);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.formDisplay{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+
+.displayLeft{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.displayRight{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.displayRightCovid{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: row;
+    align-self: start; 
+}
+
+.formDisplay div label, .selectContainer label{
+    color: var(--var-search);
+    text-align: left;
+    font-size: 0.9em;
+    font-weight: 700;
+    padding: 20px 5px 5px 20px;
+}
+
+.formDisplay div .inputText, .selectContainer select{
+    align-self: start;
+    min-width: 85%;/*mobile*/   
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px;
+    color: var(--var-search);
+    margin-left: 20px;
+    line-height: 24px;
+    outline: none;
+    
+}
+
+.displayRightCovid{
+    width: 100%;
+
+}
+
+.displayRightCovid .covidLabel label{
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+.covidInput{
+    width: 0.9em;
+    margin-top: 15px;
+    
+}
+
+.formDisplay div textarea{
+    text-align: left;
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 0.9em;
+    color: var(--var-search);
+    width: 85%;
+    height: 80px;
+    outline: none;
+    resize: none;
+
+}
+
+
+
+.selectContainer{    
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.calendarContainer{
+    margin-left: 20px;
+    width: 90%;
+    align-items: center;
+    min-width: 45%;       
+    border-radius: 10px;   
+    background-color: #fff;
+}
+
+.selectContainer .selectItem{
+    min-width: 45%;
+    padding: 5px;   
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 0.25em;
+    padding: 8px 8px;
+    font-size: .9em;
+    cursor: pointer;
+    line-height: 24px;
+    background-color: #fff;
+}
+
+.selectContainer select option{
+    padding: 50PX;
+    line-height: 20x;
+    color: var(--var-search);
+}
+
+.checkInTitle{
+    color: var(--var-search);
+    font-size: 0.9em;
+    font-weight: 700;
+    padding: 20px 5px 5px 20px;
+    text-align: left;
+   
+    
+}
+
+.bookingButton{
+    background-color: #1DBEB4;   
+    border-radius: 5px;
+    width: 30%;
+    height: fit-content;
+    text-align: center;
+    border: 3px solid #1DBEB4;
+    font-size: 16px;
+    line-height: 36px;
+    margin-top: 20px;   
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media(min-width: 460px){
+
+}
+    
+
+    
+@media(min-width: 821px){
+
+
+    .mainBookContainer{
+        display: grid;
+        grid-template-columns: 65% 35%;
+        grid-template-rows: auto auto auto;
+        
+    
+    }
+    
+    .bookContainer{
+       
+        grid-column: 1/2;
+        /* background-color: rgba(201, 201, 201, 0.281); */
+    }
+    
+    .reserveDetail{
+       
+     grid-column: 2/3;
+     grid-row: 1/4;
+     
+        
+    }
+}

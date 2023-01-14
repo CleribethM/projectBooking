@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    
+  }
+  
+    .containerCard{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    
+    .cardBookContainer{
+      width: 90%;
+      display: grid;
+      grid-template-columns: auto;
+      border-radius: 10px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      background-color: #FFFFFF;
+      margin: 10px auto;  
+    }
+     
+    .image{
+      position: relative;
+      width: 100%;
+      grid-template-columns: 1/2;
+    }
+  
+    .sectionInfo{
+      width: 100%;
+      grid-template-columns: 2/3;
+    }
+  
+    .cardBookContainer .image img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    
+    .recomendadoTitle{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: baseline;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .noBook{
+      height: 80vh;
+    }
+    
+    .heart{
+      position: absolute;
+      z-index: 1;
+      top:0;
+      right: 0;
+      padding: 20px;
+      color: #FFFFFF;
+      font-size: 20px;
+    }
+  
+    .sectionInfo .categoryss {
+      color: #383b5867;
+    }
+
+    .score{
+      grid-column: 2/3;
+      grid-row: 1/3;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-end;
+    }
+  
+    .points{
+      background-color: #383B58;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 34px;
+      height: 27px;
+      border-radius: 10px;
+      color: #FFFFFF;
+      font-size: 18px;
+    }
+  
+    .raiting{
+      font-size: 100%;
+      font-weight: 700;
+    }
+  
+    .sectionInfo {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: justify;
+    }
+    
+    .sectionInfo .infoCategory {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      padding: 10px;
+      width: 100%;  
+    }
+    
+    .categoryss h3 {
+      font-size: 14px;
+    }
+    
+    .categoryss span {
+      color: #1DBEB4;
+    }
+  
+    .bookName{
+      font-size: 20px;
+    }
+    
+    .infoBook {
+      font-size: 16px;
+      padding-top: 20px;  
+    }
+    
+    .infoBook .text {
+      color: #1DBEB4;
+    }
+
+    .infoBook .locationIcon{
+      padding-right: 2%;
+    }
+    
+    .descrip {
+      font-size: 14px;
+    }
+  
+    .descrip span{
+      color: #1DBEB4;
+    }
+  
+    .bookDates{
+      font-size: 16px;
+      color: #383B58;
+      margin-top: 3%;
+    }
+  
+    .sectionInfo button {
+      background-color: #1DBEB4;
+      color: #FFFFFF;
+      padding: 10px 30px;
+      border-radius: 5px;
+      width: 98%;
+      border: 3px solid #1DBEB4;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 19px;
+      cursor: pointer;
+      margin: 5px 5px;
+    }
+  
+    .featureDisplay{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+    
+    .featureDisplay div{
+      padding: 0;
+    }
+  
+    @media (min-width: 460px){
+
+      .containerRecomendaciones{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .recomendado{
+        width: 85%;
+        height: 279px;
+    
+    }
+    .recomendado .favorito img{
+        height: 279px;
+        width: 100%;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+
+    .sectionInfo{
+      width: 100%;
+    }
+
+    .sectionInfo .infoCategory{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .sectionInfo button{
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .cardBookContainer{
+      display: grid;
+      grid-template-columns: 40% 60%;
+      width: 90%;
+  }
+  .cardBookContainer .image img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+    }
+
+    @media (min-width: 821px){
+
+     .cardBookContainer{
+        width:70%;
+        height: 280px;
+     }
+
+     .image{
+      height: 280px;
+     }
+
+     .infoCategory{
+      justify-content: flex-start;
+     }
+
+     
+  }
+
+
+    
+
+  

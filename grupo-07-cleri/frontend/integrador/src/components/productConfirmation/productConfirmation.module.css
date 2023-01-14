@@ -1,0 +1,72 @@
+.confirmContainer{
+    width: 100%;
+    margin: 0 auto;    
+    border-radius: 5px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.confirmBox{
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.25);
+    background-color: #FFF;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.iconConf{
+    color: var(--var-btn);
+    font-size: 80px;
+}
+
+.greatingText{
+    text-align: center;
+    color: var(--var-btn);
+
+}
+
+.confirmText{
+    text-align: center;
+    color: var(--var-search);
+    font-weight: 700;
+}
+
+a .confirmButton{
+    background-color: #1DBEB4;   
+    border-radius: 5px;
+    width: 80%;
+    height: fit-content;
+    text-align: center;
+    border: 3px solid #1DBEB4;
+    font-size: 16px;
+    line-height: 36px;
+    margin-top: 20px;   
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+@media(min-width: 460px){
+    .confirmBox{
+        
+        width: 60%;
+    }
+
+    a .confirmButton{
+        width: 60%;
+    }
+}
+
+@media(min-width: 821px){
+    .confirmBox{       
+        width: 40%;        
+    }
+
+    a .confirmButton{
+        width: 40%;
+    }
+      
+}
