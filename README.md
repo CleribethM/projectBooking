@@ -7,3 +7,5 @@ Diseño y desarrollo del Front End aplicando tecnologías como JavaScript, HTML5
 Conexión del Back End con el Front End a través del consumo de APIs.
 Ejecución de pruebas a través de Postman.
 Creación de Scripts de MySQL para nutrir la base de datos.
+
+![Captura de pantalla_20230118_000343](https://user-images.githubusercontent.com/85445229/213072511-e9c7f157-3093-4c6c-bf0d-73b4a10e865b.png)
