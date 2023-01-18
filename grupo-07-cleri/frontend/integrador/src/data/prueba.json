@@ -1,0 +1,200 @@
+{   "startDate": "2022-12-18",
+    "endDate": "2022-12-29",
+    "product": [
+            {
+            "id": 2,
+            "title": "Hotel Hermitage",
+            "titleDescription": "Con vista al mar",
+            "description": "Exclusivo hotel en el centro de una ciudad unica",
+            "houseRules": "Check-out: 11:00 No fumar. No se permiten fiestas",
+            "healthAndSafety": " Se aplican las prácticas de seguridad contra la COVID-19. No consta que el alojamiento tenga un detector de humo ",
+            "cancellationPolicies": " Reembolso completo: recupera el 100 % de lo que pagaste.",
+            "punctuation": 7,
+            "city_id": 2,
+            "category_id": 1,
+            "feature": [
+                {
+                    "id": 3,
+                    "name": "Estacionamiento gratuito"
+                },
+                {
+                    "id": 4,
+                    "name": "Apto mascotas"
+                },
+                {
+                    "id": 2,
+                    "name": "Cocina"
+                },
+                {
+                    "id": 5,
+                    "name": "Aire acondicionado"
+                },
+                {
+                    "id": 1,
+                    "name": "Televisor"
+                },
+                {
+                    "id": 6,
+                    "name": "Pileta"
+                }
+            ],
+            "image": [
+                {
+                    "id": 30,
+                    "title": "Hotel 3",
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbIsBkVh6KzHO1RQUTsxVf-GkZMq-4sL-IVNRGBfzZj6cFD2iWFOfglT-1eceJiuF3RZU&usqp=CAU"
+                },
+                {
+                    "id": 22,
+                    "title": "Hotel 1",
+                    "url": "https://www.palladiumhotelgroup.com/content/dam/palladium/content-fragments/hoteles/es/trs-ibiza-hotel/galeria/imagenes/hotel/02-TRS-IBIZA-PISCINA-GAIA_MG_6077-min.jpg.transform/rendition-md/image.jpg"
+                },
+                {
+                    "id": 38,
+                    "title": "Hotel 5",
+                    "url": "https://www.almanacnews.com/news/photos/2021/november/2/57299_col.jpg"
+                },
+                {
+                    "id": 34,
+                    "title": "Hotel 4",
+                    "url": "https://media.cntraveler.com/photos/59dc0961d74f3663416ffe8b/3:2/w_2046,h_1364,c_limit/Pool-COMOMetropolitanMiamiBeach-Florida-CRHotel.jpg"
+                },
+                {
+                    "id": 26,
+                    "title": "Hotel 2",
+                    "url": "https://media.istockphoto.com/id/908258590/es/foto/render-3d-de-entrada-del-hotel-y-recepci%C3%B3n.jpg?s=612x612&w=0&k=20&c=buzWvYnreV3ulLlIyIILEWxn48qjxa3NQhJqPz0rwps="
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Casona del Sol",
+            "titleDescription": "Hostel para disfrutar la naturaleza",
+            "description": "Armonioso hostel en el corazon de la naturaleza, podras disfrutar de una vista increible junto al confort que ofrece esta apasionante opcion",
+            "houseRules": "Check-in: 10:00 a 11:00 hs. No se admiten mascotas",
+            "healthAndSafety": " Cámara de seguridad/dispositivo de grabación. Detector de humo",
+            "cancellationPolicies": " Consulta la política de cancelación completa ",
+            "punctuation": 7,
+            "city_id": 3,
+            "category_id": 2,
+            "feature": [
+                {
+                    "id": 4,
+                    "name": "Apto mascotas"
+                },
+                {
+                    "id": 1,
+                    "name": "Televisor"
+                },
+                {
+                    "id": 7,
+                    "name": "Wifi"
+                },
+                {
+                    "id": 3,
+                    "name": "Estacionamiento gratuito"
+                },
+                {
+                    "id": 2,
+                    "name": "Cocina"
+                },
+                {
+                    "id": 5,
+                    "name": "Aire acondicionado"
+                }
+            ],
+            "image": [
+                {
+                    "id": 57,
+                    "title": "Hostel 5",
+                    "url": "https://www.marazzigroup.com/media/filer_public_thumbnails/filer_public/11/85/1185e6af-1b31-40cc-b396-0b5dab9aceca/marazzi_horeca_lobby_hotel_001.jpg__1920x0_q75_crop_subsampling-2.jpg"
+                },
+                {
+                    "id": 45,
+                    "title": "Hostel 2",
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263391552.jpg?k=77c466bf3439a93b0c2a4fe5660e23e1add5e5b940b0eff35eaa224b461d95a3&o=&hp=1"
+                },
+                {
+                    "id": 49,
+                    "title": "Hostel 3",
+                    "url": "https://hqbeds.com/wp-content/uploads/2019/11/hostel1-e1573156979842.jpg"
+                },
+                {
+                    "id": 41,
+                    "title": "Hostel 1",
+                    "url": "https://milhousehostel.com/wp-content/uploads/2021/03/4476180-1394672_702_0_3538_2829_1000_800-605x605.jpg"
+                },
+                {
+                    "id": 53,
+                    "title": "Hostel 4",
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/296554071.jpg?k=895c8920044643a4dffea5ef322d8157f094e0142d3d8d9281b21ab08bca69a7&o=&hp=1"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Casona del Sol",
+            "titleDescription": "Hostel para disfrutar la naturaleza",
+            "description": "Armonioso hostel en el corazon de la naturaleza, podras disfrutar de una vista increible junto al confort que ofrece esta apasionante opcion",
+            "houseRules": "Check-in: 10:00 a 11:00 hs. No se admiten mascotas",
+            "healthAndSafety": " Cámara de seguridad/dispositivo de grabación. Detector de humo",
+            "cancellationPolicies": " Consulta la política de cancelación completa ",
+            "punctuation": 7,
+            "city_id": 2,
+            "category_id": 2,
+            "feature": [
+                {
+                    "id": 4,
+                    "name": "Apto mascotas"
+                },
+                {
+                    "id": 1,
+                    "name": "Televisor"
+                },
+                {
+                    "id": 7,
+                    "name": "Wifi"
+                },
+                {
+                    "id": 3,
+                    "name": "Estacionamiento gratuito"
+                },
+                {
+                    "id": 2,
+                    "name": "Cocina"
+                },
+                {
+                    "id": 5,
+                    "name": "Aire acondicionado"
+                }
+            ],
+            "image": [
+                {
+                    "id": 57,
+                    "title": "Hostel 5",
+                    "url": "https://www.marazzigroup.com/media/filer_public_thumbnails/filer_public/11/85/1185e6af-1b31-40cc-b396-0b5dab9aceca/marazzi_horeca_lobby_hotel_001.jpg__1920x0_q75_crop_subsampling-2.jpg"
+                },
+                {
+                    "id": 45,
+                    "title": "Hostel 2",
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263391552.jpg?k=77c466bf3439a93b0c2a4fe5660e23e1add5e5b940b0eff35eaa224b461d95a3&o=&hp=1"
+                },
+                {
+                    "id": 49,
+                    "title": "Hostel 3",
+                    "url": "https://hqbeds.com/wp-content/uploads/2019/11/hostel1-e1573156979842.jpg"
+                },
+                {
+                    "id": 41,
+                    "title": "Hostel 1",
+                    "url": "https://milhousehostel.com/wp-content/uploads/2021/03/4476180-1394672_702_0_3538_2829_1000_800-605x605.jpg"
+                },
+                {
+                    "id": 53,
+                    "title": "Hostel 4",
+                    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/296554071.jpg?k=895c8920044643a4dffea5ef322d8157f094e0142d3d8d9281b21ab08bca69a7&o=&hp=1"
+                }
+            ]
+        }
+    ]
+}

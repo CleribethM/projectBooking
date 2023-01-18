@@ -1,0 +1,328 @@
+
+.productAdminContainer{
+    background-color: var(--var-containerBg);
+    
+}
+
+.apTitleContainer{
+    width: 100%;
+}
+
+.apTitle{
+    width: 95%;    
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding-left: 0;
+}
+
+.formContainer{
+    padding-bottom: 20px;
+}
+
+.formContainer, .selectContainer{
+    background-color: var(--var-white);
+    width: 95%;
+    align-items: flex-start;
+    color: var(--var-formFont);
+    border-radius: 10px;
+    margin: 0 auto;    
+    /* padding: 20px; */
+    
+}
+
+.apFormContainer{
+    padding-bottom: 80px;
+}
+.apFormDisplay{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+
+.apDisplayLeft{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.apDisplayRight{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.apDisplayText{
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.apTextArea{
+    height: 100px;
+    padding: 0 20px;
+    padding: 5px;
+    color: var(--var-search);
+    margin-left: 20px;
+    line-height: 24px;
+    outline: none;
+    resize: none;
+    margin: 10px;
+    border: 1px var(--var-containerBg) solid;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+
+.apFormDisplay div label, .selectContainer label{
+    color: var(--var-search);
+    text-align: left;
+    font-size: 0.9em;
+    font-weight: 700;
+    padding: 20px 5px 5px 20px;
+}
+
+.apFormDisplay div .apInputText, .selectContainer select{
+    align-self: start;
+    min-width: 95%;/*mobile*/   
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px;
+    margin: 10px;
+    color: var(--var-search);   
+    line-height: 24px;
+    outline: none;
+    background-color: #fafafa;
+    border: 1px var(--var-containerBg) solid;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    
+}
+
+.apFeatureTitleContainer{
+    grid-column: 1/3;
+    
+}
+.apFeatureTitle{
+    /* width: 95%;     */
+    margin: 0 auto;
+    font-size: 1.1em;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color: var(--var-avatar);
+    text-align: left;
+}
+
+.apFormDisplayFeature{
+    grid-column: 1/3;
+    width: 98%;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: grid;
+    background-color: var(--var-containerBg);
+    grid-template-columns:60% 40px 30% ;
+}
+
+.apDisplayLeftFeature{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.apDisplayRightFeature{
+    grid-column: 3/4;
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    align-items: center;
+    margin-left: 10px;
+}  
+
+.iconSpan{
+    margin-top: 40px;
+    margin-left: 10px;
+}   
+
+.apIconButtonDisplay{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+}
+
+.apIconButton{
+    grid-column: 2/3;
+    width: 36px;
+    background-color: var(--var-btn);
+    height: 36px;
+    color: var(--var-font);
+    border: none;   
+    border-radius: 5px;
+    /* margin: 1%; */
+    padding-top: 0;
+    cursor: pointer;
+    font-size: 36px;
+    /* margin: 0 auto; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.apFormDisplayPol{
+    grid-column: 1/3;
+    width: 98%;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: grid;
+    background-color: var(--var-containerBg);
+    grid-template-columns: 33% 33% 33%;
+} 
+
+.apPolText{
+    text-align: left;
+    padding: 20px 5px 5px 20px;
+    color: var(--var-search);
+}
+
+.apDisplayTextPolLeft{    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    grid-column: 1/2;
+}
+
+.apDisplayTextPolCenter{    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    grid-column: 2/3;
+}
+
+.apDisplayTextPolRight{    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    grid-column: 3/4;
+}
+
+.apTextAreaPol{
+    height: 180px;
+    padding: 0 20px;
+    padding: 5px;
+    color: var(--var-search);
+    margin-left: 20px;
+    line-height: 24px;
+    outline: none;
+    resize: none;
+    margin: 10px;
+    border: 1px var(--var-containerBg) solid;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.apFormDisplayImage{
+    grid-column: 1/3;
+    width: 98%;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: grid;
+    background-color: var(--var-containerBg);
+    grid-template-columns:60% 30% 40px;
+}
+
+.apDisplayLeftImage{
+    grid-column: 1/3; 
+}
+
+.formButton{
+    background-color: var(--var-btn);
+    height: 36px;
+    width: 200px;
+    color: var(--var-font);
+    border: none;   
+    border-radius: 5px;
+    padding-top: 0;
+    cursor: pointer;    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+   
+    
+}
+
+
+/**********************************/
+.searchInput{
+    display: flex;
+    height: 40px;
+    width: 370px; /*mobile*/
+    background-color: var(--var-font);
+    border: none;
+    margin-bottom: 10px;/*mobile*/
+    align-items: center;
+    border-radius: 5px;
+    color: var(--var-formFont);
+}
+
+.icon{
+    padding: 5px;
+}
+
+.selectItem{
+    align-self: start;
+    min-width: 95%;/*mobile*/   
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px;
+    margin: 10px;
+    color: var(--var-search);  
+    height:36px ;  
+    line-height: 24px;
+    outline: none;
+    background-color: #fafafa;
+    border: 1px var(--var-containerBg) solid;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+
+
+.optionItem{
+    color: var(--var-search);  
+   
+}
+
+.imageText{
+    font-size: 0.7em;
+    text-align: start;
+    margin-left: 10px;
+}
+
+@media(min-width: 821px){
+
+
+
+}

@@ -1,0 +1,1186 @@
+[
+    {
+        "id": 3,
+        "name": "Bariloche",
+        "location": "Rio Negro",
+        "country": "Argentina",
+        "postalCode": "8400",
+        "product": []
+    },
+    {
+        "id": 19,
+        "name": "Chocó",
+        "location": "Bahia Solano",
+        "country": "Colombia",
+        "postalCode": "274057",
+        "product": []
+    },
+    {
+        "id": 13,
+        "name": "Cartagena",
+        "location": "Bolivar",
+        "country": "Colombia",
+        "postalCode": "30201",
+        "product": []
+    },
+    {
+        "id": 6,
+        "name": "Rosario",
+        "location": "Santa Fe",
+        "country": "Argentina",
+        "postalCode": "2000",
+        "product": []
+    },
+    {
+        "id": 2,
+        "name": "Mar del Plata",
+        "location": "Buenos Aires",
+        "country": "Argentina",
+        "postalCode": "7600",
+        "product": [
+            {
+                "id": 5,
+                "title": "Casona del Sol",
+                "titleDescription": "Hostel para disfrutar la naturaleza",
+                "description": "Armonioso hostel en el corazon de la naturaleza, podras disfrutar de una vista increible junto al confort que ofrece esta apasionante opcion",
+                "houseRules": "Check-in: 10:00 a 11:00 hs. No se admiten mascotas",
+                "healthAndSafety": " Cámara de seguridad/dispositivo de grabación. Detector de humo",
+                "cancellationPolicies": " Consulta la política de cancelación completa ",
+                "punctuation": 7,
+                "city_id": 2,
+                "category_id": 2,
+                "feature": [
+                    {
+                        "id": 5,
+                        "name": "Aire acondicionado"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Wifi"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Apto mascotas"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Televisor"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Cocina"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 49,
+                        "title": "Hostel 3",
+                        "url": "https://hqbeds.com/wp-content/uploads/2019/11/hostel1-e1573156979842.jpg"
+                    },
+                    {
+                        "id": 41,
+                        "title": "Hostel 1",
+                        "url": "https://milhousehostel.com/wp-content/uploads/2021/03/4476180-1394672_702_0_3538_2829_1000_800-605x605.jpg"
+                    },
+                    {
+                        "id": 57,
+                        "title": "Hostel 5",
+                        "url": "https://www.marazzigroup.com/media/filer_public_thumbnails/filer_public/11/85/1185e6af-1b31-40cc-b396-0b5dab9aceca/marazzi_horeca_lobby_hotel_001.jpg__1920x0_q75_crop_subsampling-2.jpg"
+                    },
+                    {
+                        "id": 45,
+                        "title": "Hostel 2",
+                        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263391552.jpg?k=77c466bf3439a93b0c2a4fe5660e23e1add5e5b940b0eff35eaa224b461d95a3&o=&hp=1"
+                    },
+                    {
+                        "id": 53,
+                        "title": "Hostel 4",
+                        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/296554071.jpg?k=895c8920044643a4dffea5ef322d8157f094e0142d3d8d9281b21ab08bca69a7&o=&hp=1"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Hotel Hermitage",
+                "description": "Exclusivo hotel en el centro de una ciudad unica",
+                "punctuation": 7,
+                "healthAndSafety": " Se aplican las prácticas de seguridad contra la COVID-19. No consta que el alojamiento tenga un detector de humo ",
+                "cancellationPolicies": " Reembolso completo: recupera el 100 % de lo que pagaste.",
+                "houseRules": "Check-out: 11:00 No fumar. No se permiten fiestas",
+                "titleDescription": "Con vista al mar",
+                "city_id": 2,
+                "category_id": 1,
+                "feature": [
+                    {
+                        "id": 6,
+                        "name": "Pileta"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Aire acondicionado"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Cocina"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Apto mascotas"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Televisor"
+                    }
+                ],
+                "booking": [
+                    { "id": 6,
+                    "startTime": "15:00:00",
+                    "startDate": "2022-12-12",
+                    "endDate": "2022-12-13",
+                    "client_id": 1
+                    },
+                    { "id": 6,
+                    "startTime": "15:00:00",
+                    "startDate": "2022-12-16",
+                    "endDate": "2022-12-18",
+                    "client_id": 1
+                    }
+                ],
+        
+                "image": [
+                    {
+                        "id": 30,
+                        "title": "Hotel 3",
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbIsBkVh6KzHO1RQUTsxVf-GkZMq-4sL-IVNRGBfzZj6cFD2iWFOfglT-1eceJiuF3RZU&usqp=CAU"
+                    },
+                    {
+                        "id": 38,
+                        "title": "Hotel 5",
+                        "url": "https://www.almanacnews.com/news/photos/2021/november/2/57299_col.jpg"
+                    },
+                    {
+                        "id": 26,
+                        "title": "Hotel 2",
+                        "url": "https://media.istockphoto.com/id/908258590/es/foto/render-3d-de-entrada-del-hotel-y-recepci%C3%B3n.jpg?s=612x612&w=0&k=20&c=buzWvYnreV3ulLlIyIILEWxn48qjxa3NQhJqPz0rwps="
+                    },
+                    {
+                        "id": 22,
+                        "title": "Hotel 1",
+                        "url": "https://www.palladiumhotelgroup.com/content/dam/palladium/content-fragments/hoteles/es/trs-ibiza-hotel/galeria/imagenes/hotel/02-TRS-IBIZA-PISCINA-GAIA_MG_6077-min.jpg.transform/rendition-md/image.jpg"
+                    },
+                    {
+                        "id": 34,
+                        "title": "Hotel 4",
+                        "url": "https://media.cntraveler.com/photos/59dc0961d74f3663416ffe8b/3:2/w_2046,h_1364,c_limit/Pool-COMOMetropolitanMiamiBeach-Florida-CRHotel.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Salta",
+        "location": "Salta",
+        "country": "Argentina",
+        "postalCode": "4400",
+        "product": []
+    },
+    {
+        "id": 9,
+        "name": "Ushuaia",
+        "location": "Tierra del Fuego",
+        "country": "Argentina",
+        "postalCode": "9410",
+        "product": []
+    },
+    {
+        "id": 11,
+        "name": "Santa Marta",
+        "location": "Magdalena",
+        "country": "Colombia",
+        "postalCode": "47001",
+        "product": [
+            {
+                "id": 14,
+                "title": "Barcelona B&B",
+                "titleDescription": "Sentite comodo y a gusto en este bed and breakfast",
+                "description": " Todas nuestras habitaciones  tienen terraza y vistas panorámicas a la ciudad. Destacamos el confort y el buen gusto. Cuidamos el más mínimo detalle, haciendo de tu estancia una visita inolvidable.",
+                "houseRules": "Llegada: 15:00 a 23:00. No se admiten mascotas. No se permite fiestas y/o eventos. Prohibido fumar",
+                "healthAndSafety": "No hay alarma de monóxido de carbono. Alarma de humos",
+                "cancellationPolicies": " Consulta la política de cancelación completa del anfitrión",
+                "punctuation": 9,
+                "city_id": 11,
+                "category_id": 4,
+                "feature": [
+                    {
+                        "id": 5,
+                        "name": "Aire acondicionado"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Televisor"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Wifi"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Cocina"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Apto mascotas"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 11,
+                        "title": "bed and breakfast",
+                        "url": "https://static.hosteltur.com/app/public/uploads/img/articles/2015/08/01/L_5c1a43aeea480_breakfast.jpg"
+                    },
+                    {
+                        "id": 14,
+                        "title": "bed and breakfast",
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbIsBkVh6KzHO1RQUTsxVf-GkZMq-4sL-IVNRGBfzZj6cFD2iWFOfglT-1eceJiuF3RZU&usqp=CAU"
+                    },
+                    {
+                        "id": 13,
+                        "title": "bed and breakfast",
+                        "url": "https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220908140555-01-big-breakfast-stock.jpeg"
+                    },
+                    {
+                        "id": 12,
+                        "title": "bed and breakfast",
+                        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263391552.jpg?k=77c466bf3439a93b0c2a4fe5660e23e1add5e5b940b0eff35eaa224b461d95a3&o=&hp=1"
+                    },
+                    {
+                        "id": 15,
+                        "title": "bed and breakfast",
+                        "url": "https://www.bedandbreakfast.eu/blog/wp-content/uploads/2015/11/bb_italy_breakfast.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Nuevo Hotizonte",
+                "titleDescription": "Alojate en uno de los mas exclusivos de la zona",
+                "description": "Exclusivo hotel en el centro de una ciudad unica",
+                "houseRules": "Check-out: 11:00. No fumar. No se permiten fiestas ",
+                "healthAndSafety": " Se aplican las prácticas de seguridad contra la COVID-19. No consta que el alojamiento tenga un detector de humo ",
+                "cancellationPolicies": " Reembolso completo: recupera el 100 % de lo que pagaste.",
+                "punctuation": 8,
+                "city_id": 11,
+                "category_id": 1,
+                "feature": [
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Televisor"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Aire acondicionado"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Wifi"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Cocina"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 33,
+                        "title": "Hotel 4",
+                        "url": "https://media.cntraveler.com/photos/59dc0961d74f3663416ffe8b/3:2/w_2046,h_1364,c_limit/Pool-COMOMetropolitanMiamiBeach-Florida-CRHotel.jpg"
+                    },
+                    {
+                        "id": 25,
+                        "title": "Hotel 2",
+                        "url": "https://media.istockphoto.com/id/908258590/es/foto/render-3d-de-entrada-del-hotel-y-recepci%C3%B3n.jpg?s=612x612&w=0&k=20&c=buzWvYnreV3ulLlIyIILEWxn48qjxa3NQhJqPz0rwps="
+                    },
+                    {
+                        "id": 21,
+                        "title": "Hotel 1",
+                        "url": "https://www.palladiumhotelgroup.com/content/dam/palladium/content-fragments/hoteles/es/trs-ibiza-hotel/galeria/imagenes/hotel/02-TRS-IBIZA-PISCINA-GAIA_MG_6077-min.jpg.transform/rendition-md/image.jpg"
+                    },
+                    {
+                        "id": 29,
+                        "title": "Hotel 3",
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbIsBkVh6KzHO1RQUTsxVf-GkZMq-4sL-IVNRGBfzZj6cFD2iWFOfglT-1eceJiuF3RZU&usqp=CAU"
+                    },
+                    {
+                        "id": 37,
+                        "title": "Hotel 5",
+                        "url": "https://www.almanacnews.com/news/photos/2021/november/2/57299_col.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "title": "Hostel La puerta",
+                "titleDescription": "Hostel con excelente ubicación",
+                "description": "Armonioso hostel en el corazon de la naturaleza, podras disfrutar de una vista increible junto al confort que ofrece esta apasionante opcion",
+                "houseRules": "Check-in: 10:00 a 11:00 hs. No se admiten mascotas",
+                "healthAndSafety": " Cámara de seguridad/dispositivo de grabación. Detector de humo",
+                "cancellationPolicies": " Consulta la política de cancelación completa ",
+                "punctuation": 9,
+                "city_id": 11,
+                "category_id": 2,
+                "feature": [
+                    {
+                        "id": 7,
+                        "name": "Wifi"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Cocina"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Televisor"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Apto mascotas"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 47,
+                        "title": "Hostel 2",
+                        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263391552.jpg?k=77c466bf3439a93b0c2a4fe5660e23e1add5e5b940b0eff35eaa224b461d95a3&o=&hp=1"
+                    },
+                    {
+                        "id": 51,
+                        "title": "Hostel 3",
+                        "url": "https://hqbeds.com/wp-content/uploads/2019/11/hostel1-e1573156979842.jpg"
+                    },
+                    {
+                        "id": 55,
+                        "title": "Hostel 4",
+                        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/296554071.jpg?k=895c8920044643a4dffea5ef322d8157f094e0142d3d8d9281b21ab08bca69a7&o=&hp=1"
+                    },
+                    {
+                        "id": 59,
+                        "title": "Hostel 5",
+                        "url": "https://www.marazzigroup.com/media/filer_public_thumbnails/filer_public/11/85/1185e6af-1b31-40cc-b396-0b5dab9aceca/marazzi_horeca_lobby_hotel_001.jpg__1920x0_q75_crop_subsampling-2.jpg"
+                    },
+                    {
+                        "id": 43,
+                        "title": "Hostel 1",
+                        "url": "https://milhousehostel.com/wp-content/uploads/2021/03/4476180-1394672_702_0_3538_2829_1000_800-605x605.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "title": "Departamento Luxury",
+                "titleDescription": "Departamento exclusivo",
+                "description": "Increible departamento con todas las comodidades que uno necesita para una estadia mas que confortable",
+                "houseRules": "Check-in: 14:00 hs. Check-out: 16:00 hs. Prohibido fumar. No se permiten fiestas o eventos",
+                "healthAndSafety": " Alarma de monoxido de carbono. Alarma de humo",
+                "cancellationPolicies": " Esta reserva no es reembolsable. Consulta la política de cancelación completa del anfitrión",
+                "punctuation": 9,
+                "city_id": 11,
+                "category_id": 3,
+                "feature": [
+                    {
+                        "id": 1,
+                        "name": "Televisor"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Pileta"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Apto mascotas"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Wifi"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 61,
+                        "title": "Departamento 1",
+                        "url": "https://www.triada.com.pe/noticias/wp-content/uploads/2019/07/triada-aprovechar-espacios-departamento-pequeno.jpg"
+                    },
+                    {
+                        "id": 65,
+                        "title": "Departamento 2",
+                        "url": "https://i.pinimg.com/736x/0d/1e/6d/0d1e6d886d320b15c17bb18cff2a8b85.jpg"
+                    },
+                    {
+                        "id": 73,
+                        "title": "Departamento 4",
+                        "url": "https://www.zonaprop.com.ar/noticias/wp-content/uploads/2016/08/depto.jpg"
+                    },
+                    {
+                        "id": 69,
+                        "title": "Departamento 3",
+                        "url": "https://webmediums.com/media/webp_max_1600/1*imXHUKcEN7HP5jSEnz85Ew*png.webp"
+                    },
+                    {
+                        "id": 77,
+                        "title": "Departamento 5",
+                        "url": "https://www.sancharbel.pe/blog/wp-content/uploads/2018/06/san-charbel-departamento-dormitorio-redecoracion.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Hotel del golf",
+                "titleDescription": "Excelente ubicación",
+                "description": "Exclusivo hotel en el centro de una ciudad unica",
+                "houseRules": "Check-out: 11:00 No fumar. No se permiten fiestas",
+                "healthAndSafety": " Se aplican las prácticas de seguridad contra la COVID-19. No consta que el alojamiento tenga un detector de humo ",
+                "cancellationPolicies": " Reembolso completo: recupera el 100 % de lo que pagaste.",
+                "punctuation": 9,
+                "city_id": 11,
+                "category_id": 1,
+                "feature": [
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Televisor"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Aire acondicionado"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Cocina"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Pileta"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Wifi"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 31,
+                        "title": "Hotel 3",
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbIsBkVh6KzHO1RQUTsxVf-GkZMq-4sL-IVNRGBfzZj6cFD2iWFOfglT-1eceJiuF3RZU&usqp=CAU"
+                    },
+                    {
+                        "id": 23,
+                        "title": "Hotel 1",
+                        "url": "https://www.palladiumhotelgroup.com/content/dam/palladium/content-fragments/hoteles/es/trs-ibiza-hotel/galeria/imagenes/hotel/02-TRS-IBIZA-PISCINA-GAIA_MG_6077-min.jpg.transform/rendition-md/image.jpg"
+                    },
+                    {
+                        "id": 27,
+                        "title": "Hotel 2",
+                        "url": "https://media.istockphoto.com/id/908258590/es/foto/render-3d-de-entrada-del-hotel-y-recepci%C3%B3n.jpg?s=612x612&w=0&k=20&c=buzWvYnreV3ulLlIyIILEWxn48qjxa3NQhJqPz0rwps="
+                    },
+                    {
+                        "id": 35,
+                        "title": "Hotel 4",
+                        "url": "https://media.cntraveler.com/photos/59dc0961d74f3663416ffe8b/3:2/w_2046,h_1364,c_limit/Pool-COMOMetropolitanMiamiBeach-Florida-CRHotel.jpg"
+                    },
+                    {
+                        "id": 39,
+                        "title": "Hotel 5",
+                        "url": "https://www.almanacnews.com/news/photos/2021/november/2/57299_col.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Villa General Belgrano",
+        "location": "Cordoba",
+        "country": "Argentina",
+        "postalCode": "5194",
+        "product": []
+    },
+    {
+        "id": 14,
+        "name": "Barranquilla",
+        "location": "Atlantico",
+        "country": "Colombia",
+        "postalCode": "80001",
+        "product": []
+    },
+    {
+        "id": 5,
+        "name": "Iguazú",
+        "location": "Misiones",
+        "country": "Argentina",
+        "postalCode": "3370",
+        "product": [
+            {
+                "id": 13,
+                "title": "Casa balcón",
+                "titleDescription": "Armonioso bed and breakfast",
+                "description": " Todas nuestras habitaciones  tienen terraza y vistas panorámicas a la ciudad. Destacamos el confort y el buen gusto. Cuidamos el más mínimo detalle, haciendo de tu estancia una visita inolvidable.",
+                "houseRules": "Llegada: 15:00 a 23:00. No se admiten mascotas. No se permite fiestas y/o eventos. Prohibido fumar",
+                "healthAndSafety": "No hay alarma de monóxido de carbono. Alarma de humos",
+                "cancellationPolicies": " Consulta la política de cancelación completa del anfitrión",
+                "punctuation": 7,
+                "city_id": 5,
+                "category_id": 4,
+                "feature": [
+                    {
+                        "id": 1,
+                        "name": "Televisor"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Pileta"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Apto mascotas"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Wifi"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 10,
+                        "title": "bed and breakfast",
+                        "url": "https://www.bedandbreakfast.eu/blog/wp-content/uploads/2015/11/bb_italy_breakfast.jpg"
+                    },
+                    {
+                        "id": 7,
+                        "title": "bed and breakfast",
+                        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263391552.jpg?k=77c466bf3439a93b0c2a4fe5660e23e1add5e5b940b0eff35eaa224b461d95a3&o=&hp=1"
+                    },
+                    {
+                        "id": 6,
+                        "title": "bed and breakfast",
+                        "url": "https://static.hosteltur.com/app/public/uploads/img/articles/2015/08/01/L_5c1a43aeea480_breakfast.jpg"
+                    },
+                    {
+                        "id": 8,
+                        "title": "bed and breakfast",
+                        "url": "https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220908140555-01-big-breakfast-stock.jpeg"
+                    },
+                    {
+                        "id": 9,
+                        "title": "bed and breakfast",
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbIsBkVh6KzHO1RQUTsxVf-GkZMq-4sL-IVNRGBfzZj6cFD2iWFOfglT-1eceJiuF3RZU&usqp=CAU"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Acantilados Hostel",
+                "titleDescription": "Hostel para disfrutar con amigos",
+                "description": "Armonioso hostel en el corazon de la naturaleza, podras disfrutar de una vista increible junto al confort que ofrece esta apasionante opcion",
+                "houseRules": "Check-in: 10:00 a 11:00 hs. No se admiten mascotas",
+                "healthAndSafety": " Cámara de seguridad/dispositivo de grabación. Detector de humo",
+                "cancellationPolicies": " Consulta la política de cancelación completa ",
+                "punctuation": 7,
+                "city_id": 5,
+                "category_id": 2,
+                "feature": [
+                    {
+                        "id": 7,
+                        "name": "Wifi"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Apto mascotas"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Televisor"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Aire acondicionado"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 42,
+                        "title": "Hostel 1",
+                        "url": "https://milhousehostel.com/wp-content/uploads/2021/03/4476180-1394672_702_0_3538_2829_1000_800-605x605.jpg"
+                    },
+                    {
+                        "id": 58,
+                        "title": "Hostel 5",
+                        "url": "https://www.marazzigroup.com/media/filer_public_thumbnails/filer_public/11/85/1185e6af-1b31-40cc-b396-0b5dab9aceca/marazzi_horeca_lobby_hotel_001.jpg__1920x0_q75_crop_subsampling-2.jpg"
+                    },
+                    {
+                        "id": 46,
+                        "title": "Hostel 2",
+                        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263391552.jpg?k=77c466bf3439a93b0c2a4fe5660e23e1add5e5b940b0eff35eaa224b461d95a3&o=&hp=1"
+                    },
+                    {
+                        "id": 50,
+                        "title": "Hostel 3",
+                        "url": "https://hqbeds.com/wp-content/uploads/2019/11/hostel1-e1573156979842.jpg"
+                    },
+                    {
+                        "id": 54,
+                        "title": "Hostel 4",
+                        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/296554071.jpg?k=895c8920044643a4dffea5ef322d8157f094e0142d3d8d9281b21ab08bca69a7&o=&hp=1"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "title": "Sucre suitis",
+                "titleDescription": "Departamento con vista al mar",
+                "description": "Increible departamento con todas las comodidades que uno necesita para una estadia mas que confortable",
+                "houseRules": "Check-in: 14:00 hs. Check-out: 16:00 hs. Prohibido fumar. No se permiten fiestas o eventos",
+                "healthAndSafety": " Alarma de monoxido de carbono. Alarma de humo",
+                "cancellationPolicies": " Esta reserva no es reembolsable. Consulta la política de cancelación completa del anfitrión",
+                "punctuation": 7,
+                "city_id": 5,
+                "category_id": 3,
+                "feature": [
+                    {
+                        "id": 1,
+                        "name": "Televisor"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Cocina"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Apto mascotas"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Pileta"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Wifi"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 74,
+                        "title": "Departamento 4",
+                        "url": "https://www.zonaprop.com.ar/noticias/wp-content/uploads/2016/08/depto.jpg"
+                    },
+                    {
+                        "id": 78,
+                        "title": "Departamento 5",
+                        "url": "https://www.sancharbel.pe/blog/wp-content/uploads/2018/06/san-charbel-departamento-dormitorio-redecoracion.jpg"
+                    },
+                    {
+                        "id": 70,
+                        "title": "Departamento 3",
+                        "url": "https://webmediums.com/media/webp_max_1600/1*imXHUKcEN7HP5jSEnz85Ew*png.webp"
+                    },
+                    {
+                        "id": 62,
+                        "title": "Departamento 1",
+                        "url": "https://www.triada.com.pe/noticias/wp-content/uploads/2019/07/triada-aprovechar-espacios-departamento-pequeno.jpg"
+                    },
+                    {
+                        "id": 66,
+                        "title": "Departamento 2",
+                        "url": "https://i.pinimg.com/736x/0d/1e/6d/0d1e6d886d320b15c17bb18cff2a8b85.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "El Calafate",
+        "location": "Santa Cruz",
+        "country": "Argentina",
+        "postalCode": "9405",
+        "product": []
+    },
+    {
+        "id": 15,
+        "name": "Bucaramanga",
+        "location": "Santander",
+        "country": "Colombia",
+        "postalCode": "680001",
+        "product": []
+    },
+    {
+        "id": 16,
+        "name": "Cúcuta",
+        "location": "Santander",
+        "country": "Colombia",
+        "postalCode": "540001",
+        "product": []
+    },
+    {
+        "id": 17,
+        "name": "Montería",
+        "location": "Córdoba",
+        "country": "Colombia",
+        "postalCode": "230001",
+        "product": []
+    },
+    {
+        "id": 8,
+        "name": "Tandil",
+        "location": "Buenos Aires",
+        "country": "Argentina",
+        "postalCode": "7000",
+        "product": [
+            {
+                "id": 16,
+                "title": "Casona del sol B&B",
+                "titleDescription": "Bed and breakfast para disfrutar en familia",
+                "description": " Todas nuestras habitaciones  tienen terraza y vistas panorámicas a la ciudad. Destacamos el confort y el buen gusto. Cuidamos el más mínimo detalle, haciendo de tu estancia una visita inolvidable.",
+                "houseRules": "Llegada: 15:00 a 23:00. No se admiten mascotas. No se permite fiestas y/o eventos. Prohibido fumar",
+                "healthAndSafety": "No hay alarma de monóxido de carbono. Alarma de humos",
+                "cancellationPolicies": " Consulta la política de cancelación completa del anfitrión",
+                "punctuation": 10,
+                "city_id": 8,
+                "category_id": 4,
+                "feature": [
+                    {
+                        "id": 5,
+                        "name": "Aire acondicionado"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Televisor"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Cocina"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Apto mascotas"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Pileta"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 20,
+                        "title": "bed and breakfast",
+                        "url": "https://www.bedandbreakfast.eu/blog/wp-content/uploads/2015/11/bb_italy_breakfast.jpg"
+                    },
+                    {
+                        "id": 17,
+                        "title": "bed and breakfast",
+                        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263391552.jpg?k=77c466bf3439a93b0c2a4fe5660e23e1add5e5b940b0eff35eaa224b461d95a3&o=&hp=1"
+                    },
+                    {
+                        "id": 16,
+                        "title": "bed and breakfast",
+                        "url": "https://static.hosteltur.com/app/public/uploads/img/articles/2015/08/01/L_5c1a43aeea480_breakfast.jpg"
+                    },
+                    {
+                        "id": 18,
+                        "title": "bed and breakfast",
+                        "url": "https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220908140555-01-big-breakfast-stock.jpeg"
+                    },
+                    {
+                        "id": 19,
+                        "title": "bed and breakfast",
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbIsBkVh6KzHO1RQUTsxVf-GkZMq-4sL-IVNRGBfzZj6cFD2iWFOfglT-1eceJiuF3RZU&usqp=CAU"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "title": "Hostel Puerto Alegre",
+                "titleDescription": "Hostel a dos cuadras del mar",
+                "description": "Armonioso hostel en el corazon de la naturaleza, podras disfrutar de una vista increible junto al confort que ofrece esta apasionante opcion",
+                "houseRules": "Check-in: 10:00 a 11:00 hs. No se admiten mascotas",
+                "healthAndSafety": " Cámara de seguridad/dispositivo de grabación. Detector de humo",
+                "cancellationPolicies": " Consulta la política de cancelación completa ",
+                "punctuation": 10,
+                "city_id": 8,
+                "category_id": 2,
+                "feature": [
+                    {
+                        "id": 5,
+                        "name": "Aire acondicionado"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Cocina"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Wifi"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Apto mascotas"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 48,
+                        "title": "Hostel 2",
+                        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263391552.jpg?k=77c466bf3439a93b0c2a4fe5660e23e1add5e5b940b0eff35eaa224b461d95a3&o=&hp=1"
+                    },
+                    {
+                        "id": 56,
+                        "title": "Hostel 4",
+                        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/296554071.jpg?k=895c8920044643a4dffea5ef322d8157f094e0142d3d8d9281b21ab08bca69a7&o=&hp=1"
+                    },
+                    {
+                        "id": 44,
+                        "title": "Hostel 1",
+                        "url": "https://milhousehostel.com/wp-content/uploads/2021/03/4476180-1394672_702_0_3538_2829_1000_800-605x605.jpg"
+                    },
+                    {
+                        "id": 52,
+                        "title": "Hostel 3",
+                        "url": "https://hqbeds.com/wp-content/uploads/2019/11/hostel1-e1573156979842.jpg"
+                    },
+                    {
+                        "id": 60,
+                        "title": "Hostel 5",
+                        "url": "https://www.marazzigroup.com/media/filer_public_thumbnails/filer_public/11/85/1185e6af-1b31-40cc-b396-0b5dab9aceca/marazzi_horeca_lobby_hotel_001.jpg__1920x0_q75_crop_subsampling-2.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "title": "Luxury Loft",
+                "titleDescription": "Departamento calido y luminoso",
+                "description": "Increible departamento con todas las comodidades que uno necesita para una estadia mas que confortable",
+                "houseRules": "Check-in: 14:00 hs. Check-out: 16:00 hs. Prohibido fumar. No se permiten fiestas o eventos",
+                "healthAndSafety": " Alarma de monoxido de carbono. Alarma de humo",
+                "cancellationPolicies": " Esta reserva no es reembolsable. Consulta la política de cancelación completa del anfitrión",
+                "punctuation": 8,
+                "city_id": 8,
+                "category_id": 3,
+                "feature": [
+                    {
+                        "id": 2,
+                        "name": "Cocina"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Televisor"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Wifi"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Aire acondicionado"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 68,
+                        "title": "Departamento 2",
+                        "url": "https://i.pinimg.com/736x/0d/1e/6d/0d1e6d886d320b15c17bb18cff2a8b85.jpg"
+                    },
+                    {
+                        "id": 64,
+                        "title": "Departamento 1",
+                        "url": "https://www.triada.com.pe/noticias/wp-content/uploads/2019/07/triada-aprovechar-espacios-departamento-pequeno.jpg"
+                    },
+                    {
+                        "id": 76,
+                        "title": "Departamento 4",
+                        "url": "https://www.zonaprop.com.ar/noticias/wp-content/uploads/2016/08/depto.jpg"
+                    },
+                    {
+                        "id": 80,
+                        "title": "Departamento 5",
+                        "url": "https://www.sancharbel.pe/blog/wp-content/uploads/2018/06/san-charbel-departamento-dormitorio-redecoracion.jpg"
+                    },
+                    {
+                        "id": 72,
+                        "title": "Departamento 3",
+                        "url": "https://webmediums.com/media/webp_max_1600/1*imXHUKcEN7HP5jSEnz85Ew*png.webp"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Hotel NH",
+                "titleDescription": "Ideal para disfrutar en familia",
+                "description": "Exclusivo hotel en el centro de una ciudad unica",
+                "houseRules": "Check-out: 11:00 No fumar.",
+                "healthAndSafety": " Se aplican las prácticas de seguridad contra la COVID-19. No consta que el alojamiento tenga un detector de humo ",
+                "cancellationPolicies": " Reembolso completo: recupera el 100 % de lo que pagaste.",
+                "punctuation": 7,
+                "city_id": 8,
+                "category_id": 1,
+                "feature": [
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Wifi"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Aire acondicionado"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Cocina"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 24,
+                        "title": "Hotel 1",
+                        "url": "https://www.palladiumhotelgroup.com/content/dam/palladium/content-fragments/hoteles/es/trs-ibiza-hotel/galeria/imagenes/hotel/02-TRS-IBIZA-PISCINA-GAIA_MG_6077-min.jpg.transform/rendition-md/image.jpg"
+                    },
+                    {
+                        "id": 40,
+                        "title": "Hotel 5",
+                        "url": "https://www.almanacnews.com/news/photos/2021/november/2/57299_col.jpg"
+                    },
+                    {
+                        "id": 28,
+                        "title": "Hotel 2",
+                        "url": "https://media.istockphoto.com/id/908258590/es/foto/render-3d-de-entrada-del-hotel-y-recepci%C3%B3n.jpg?s=612x612&w=0&k=20&c=buzWvYnreV3ulLlIyIILEWxn48qjxa3NQhJqPz0rwps="
+                    },
+                    {
+                        "id": 32,
+                        "title": "Hotel 3",
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbIsBkVh6KzHO1RQUTsxVf-GkZMq-4sL-IVNRGBfzZj6cFD2iWFOfglT-1eceJiuF3RZU&usqp=CAU"
+                    },
+                    {
+                        "id": 36,
+                        "title": "Hotel 4",
+                        "url": "https://media.cntraveler.com/photos/59dc0961d74f3663416ffe8b/3:2/w_2046,h_1364,c_limit/Pool-COMOMetropolitanMiamiBeach-Florida-CRHotel.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Riohacha",
+        "location": "La Guajira",
+        "country": "Colombia",
+        "postalCode": "440001",
+        "product": []
+    },
+    {
+        "id": 10,
+        "name": "San Martin de los Andes",
+        "location": "Neuquén",
+        "country": "Argentina",
+        "postalCode": "8370",
+        "product": []
+    },
+    {
+        "id": 12,
+        "name": "Bogota",
+        "location": "Cundinamarca",
+        "country": "Colombia",
+        "postalCode": "110110",
+        "product": [
+            {
+                "id": 11,
+                "title": "Recoleta Apartment",
+                "titleDescription": "Departamento con excelente ubicación",
+                "description": "Increible departamento con todas las comodidades que uno necesita para una estadia mas que confortable",
+                "houseRules": "Check-in: 14:00 hs. Check-out: 16:00 hs. Prohibido fumar. No se permiten fiestas o eventos",
+                "healthAndSafety": " Alarma de monoxido de carbono. Alarma de humo",
+                "cancellationPolicies": " Esta reserva no es reembolsable. Consulta la política de cancelación completa del anfitrión",
+                "punctuation": 7,
+                "city_id": 12,
+                "category_id": 3,
+                "feature": [
+                    {
+                        "id": 7,
+                        "name": "Wifi"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Pileta"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Apto mascotas"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Cocina"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 71,
+                        "title": "Departamento 3",
+                        "url": "https://webmediums.com/media/webp_max_1600/1*imXHUKcEN7HP5jSEnz85Ew*png.webp"
+                    },
+                    {
+                        "id": 75,
+                        "title": "Departamento 4",
+                        "url": "https://www.zonaprop.com.ar/noticias/wp-content/uploads/2016/08/depto.jpg"
+                    },
+                    {
+                        "id": 79,
+                        "title": "Departamento 5",
+                        "url": "https://www.sancharbel.pe/blog/wp-content/uploads/2018/06/san-charbel-departamento-dormitorio-redecoracion.jpg"
+                    },
+                    {
+                        "id": 67,
+                        "title": "Departamento 2",
+                        "url": "https://i.pinimg.com/736x/0d/1e/6d/0d1e6d886d320b15c17bb18cff2a8b85.jpg"
+                    },
+                    {
+                        "id": 63,
+                        "title": "Departamento 1",
+                        "url": "https://www.triada.com.pe/noticias/wp-content/uploads/2019/07/triada-aprovechar-espacios-departamento-pequeno.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "title": "Casa Urban B&B",
+                "titleDescription": "Exclusivo bed and breakfast",
+                "description": " Todas nuestras habitaciones  tienen terraza y vistas panorámicas a la ciudad. Destacamos el confort y el buen gusto. Cuidamos el más mínimo detalle, haciendo de tu estancia una visita inolvidable.",
+                "houseRules": "Llegada: 15:00 a 23:00. No se admiten mascotas. No se permite fiestas y/o eventos. Prohibido fumar",
+                "healthAndSafety": "No hay alarma de monóxido de carbono. Alarma de humos",
+                "cancellationPolicies": " Consulta la política de cancelación completa del anfitrión",
+                "punctuation": 8,
+                "city_id": 12,
+                "category_id": 4,
+                "feature": [
+                    {
+                        "id": 1,
+                        "name": "Televisor"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Estacionamiento gratuito"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Wifi"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Apto mascotas"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Cocina"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Pileta"
+                    }
+                ],
+                "image": [
+                    {
+                        "id": 3,
+                        "title": "bed and breakfast",
+                        "url": "https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220908140555-01-big-breakfast-stock.jpeg"
+                    },
+                    {
+                        "id": 5,
+                        "title": "bed and breakfast",
+                        "url": "https://www.bedandbreakfast.eu/blog/wp-content/uploads/2015/11/bb_italy_breakfast.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "title": "bed and breakfast",
+                        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263391552.jpg?k=77c466bf3439a93b0c2a4fe5660e23e1add5e5b940b0eff35eaa224b461d95a3&o=&hp=1"
+                    },
+                    {
+                        "id": 1,
+                        "title": "bed and breakfast",
+                        "url": "https://static.hosteltur.com/app/public/uploads/img/articles/2015/08/01/L_5c1a43aeea480_breakfast.jpg"
+                    },
+                    {
+                        "id": 4,
+                        "title": "bed and breakfast",
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbIsBkVh6KzHO1RQUTsxVf-GkZMq-4sL-IVNRGBfzZj6cFD2iWFOfglT-1eceJiuF3RZU&usqp=CAU"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Armenia",
+        "location": "Quindio",
+        "country": "Colombia",
+        "postalCode": "630001",
+        "product": []
+    }
+]
+
+
+
+

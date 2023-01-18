@@ -1,0 +1,34 @@
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+    background-color: #1DBEB4;
+    color: #FFFFFF;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+    padding-left: 3%;
+    padding-right: 3%;
+    z-index: 1;
+    margin-top: auto;
+    bottom: 0;
+    position: fixed;
+    
+  }
+  
+  .footer .icons {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footerData{
+    font-size: 14px;
+  }
+  
+  footer .icons span {
+    display: flex;
+    margin-left: 24px;
+  }

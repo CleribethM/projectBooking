@@ -1,0 +1,18 @@
+
+
+.rating{
+  font-size: .75em; /*mobile*/
+  font-weight: 700;
+  padding-right: 0.5em;
+}
+
+  @media (min-width:460px){
+
+ 
+
+    .rating{
+      padding-right: 0.5em;
+      font-size: 1em; /*mobile*/
+      }
+
+  }

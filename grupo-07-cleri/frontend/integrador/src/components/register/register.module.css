@@ -1,0 +1,180 @@
+.registerContainer{
+    background-color: var(--var-containerBg);
+    min-height: 100vh;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.registerContainer h1{
+    padding-top: 0px;
+    color: var(--var-btn)
+}
+
+.registerFormContainer form {
+    display: flex;
+    flex-direction: column;
+} 
+
+.registerName{ /*mobile*/
+    display: flex;
+    flex-direction: column;
+}
+
+.labelName, .labelLastName{
+    display: flex;
+    flex-direction: column;
+}
+
+.labelName label, .labelLastName label{
+    align-self: center;
+    min-width: 300px; /*mobile*/
+    /* padding-top: 10px; */
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    color: var(--var-search);
+}
+
+.registerFormContainer form label{
+    align-self: center;
+    min-width: 300px; /*mobile*/
+    padding-top: 10px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    color: var(--var-search);
+}
+
+
+
+.registerFormContainer form input{
+    align-self: center;
+    min-width: 300px; /*mobile*/
+    /* padding-top: 10px; */
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    box-shadow: 0px 1px 5px 0px ;
+    padding-left: 10px;
+}
+
+.labelName input, .labelLastName input{
+    
+        align-self: center;
+        min-width: 300px; /*mobile*/
+        border-radius: 5px;
+        border: none;
+        height: 40px;
+        box-shadow: 0px 1px 5px 0px ;
+        padding-left: 10px;
+    
+}
+
+
+.registerFormContainer form input:focus{
+    outline: none;
+}
+
+.registerFormButton{
+    align-self: center;
+    height: 40px;
+    min-width: 300px; /*mobile*/
+    font-size: 16px;
+    color: var(--var-containerBg);
+    background-color: var(--var-btn);
+    border: none;
+    border-radius: 5px;
+    font-weight: 700px;
+    margin: 20px 0 30px;
+    padding-top: 0;
+}
+
+.registerBottom p{
+    margin-top: -20px;
+    font-size: 12px;
+    color: var(--var-search);
+    font-weight: 600;
+}
+
+.registerBottom span a{
+    font-size: 12px;
+    color: var(--var-btn);
+    text-decoration: none;
+}
+.errorRegister{
+    background-color: rgba(255, 225, 225, 1);
+    border: 1px rgba(255, 0, 0, 1) solid;
+}
+
+.errorText{
+    padding-top: 10px;
+    font-size: 12px;
+    color:rgba(255, 0, 0, 1);
+    text-align: center;
+    font-weight: 500;
+}
+.hiddenText{
+    display: none;
+}
+
+@media(min-width: 460px){
+
+    .registerFormButton{
+        min-width: 346px; /*mobile*/
+        max-width: 346px;
+    }
+
+    .registerFormContainer form label{
+        min-width: 346px; /*mobile*/
+    } 
+
+    .registerFormContainer form input{
+        min-width: 346px;
+    }    
+}
+
+@media(min-width: 820px){
+    .registerName{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+        justify-content: baseline;
+        margin: auto;
+       
+    }
+    .registerBottom p{
+        margin-top: 0px;
+    }
+
+    .registerFormButton{
+        min-width: 206px; /*mobile*/
+        max-width: 346px;
+        
+    }
+
+    .labelName, .labelLastName{
+        min-width: 200px;
+    }
+
+    
+    .registerFormContainer form input, .registerFormContainer form label{
+        min-width: 420px;
+    }   
+    
+    .registerName .labelName input, .registerName .labelLastName input{
+        min-width:200px;
+        margin: 0 10px;
+    } 
+    
+    .registerName .labelName label, .registerName .labelLastName label{
+        min-width:200px;
+        margin: 0 10px;
+    } 
+    
+   
+}

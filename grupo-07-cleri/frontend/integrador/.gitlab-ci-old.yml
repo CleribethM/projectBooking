@@ -1,0 +1,55 @@
+cache:
+  paths:
+    - node_modules
+
+variables:
+  DIR_ROOT: ${CI_PROJECT_DIR}/frontend/integrador
+  DIR: frontend/integrador
+
+before_script:
+  - cd ${DIR_ROOT}
+  - export APP_ENV="dev"
+
+stages:
+  - build
+  - deploy
+
+build-react-app:
+  #I'm using node:latest, but be sure to test or change to a version you know works. Sometimes node updates break the npm script.
+  image: node:18.12.1
+  stage: build
+  only:
+    changes:
+      - frontend/integrador/**/*
+  script: |
+    yarn # Install all dependencies
+    yarn build:${APP_ENV} # Build command
+    # Set PATH
+    - export PATH=$PATH:/usr/bin/npm
+    # Install dependencies
+    - npm install
+    - npm install --save date-fns
+    # Build App
+    - CI=false npm run build
+  artifacts:
+    paths:
+      # Build folder
+      - ${DIR_ROOT}/build/
+    expire_in: 1 hour
+
+deploy-react-app:
+  image: python:latest
+  #image:
+  #  name: amazon/aws-cli
+  #  entrypoint: ["/usr/local/bin/aws"]
+  stage: deploy
+  only:
+    changes:
+      - frontend/integrador/**/*
+  script:
+    #- pip3 install awscli
+    #- aws s3 sync ./build s3://$S3_BUCKET_NAME --acl public-read
+    - aws s3 sync ./build s3://g7-front-bucket.app --acl public-read
+  dependencies:
+    - build-react-app
+  when: manual

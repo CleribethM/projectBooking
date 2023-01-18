@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.container{
+    background-color: rgba(201, 201, 201, 0.281);
+    margin-bottom: 50px;
+    min-height: 100vh;
+   
+}
+
+.productHeader{    
+    width: 100%;
+    background-color: var(--var-bg); 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.productHeader h2{
+    color: var(--var-white);
+    text-align: left;
+    padding: 8px 0 8px 10px; /*mobile*/
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+ }
+
+.backButton{
+    color: #FFFF;
+    padding-right: 20px; /*mobile*/
+    font-size: 24px; /*mobile*/
+   }
+
+.booksTitle{
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.noBook h3{
+    margin-top: 2%;
+    padding: 3%;
+}
+
+.noBook .noBookIcon{
+    color: red;
+    padding-right: 2%;
+}
+
+.noBook button{
+    background-color: #1DBEB4;
+      color: #FFFFFF;
+      padding: 10px 30px;
+      border-radius: 5px;
+      width: 80%;
+      border: 3px solid #1DBEB4;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 19px;
+      cursor: pointer;
+      margin: 5px 5px;
+}
+
+.containerCard{
+    padding-bottom: 10px;
+}
+
+@media(min-width: 460px){
+    .productHeader{
+        height: 52px;
+        font-size: 20px;
+    }
+
+    .noBook h3{
+        font-size:24px ;
+
+    }
+
+    .noBook button{
+        width: 40%;
+    }
+}
+
+@media(min-width: 861px){
+    .booksTitle{
+        margin-top: 0.5%;
+    }
+
+    .noBook h3{
+        margin-top: 0.5%;
+    }
+
+    .noBook button{
+        width: 25%;
+    }
+}
+

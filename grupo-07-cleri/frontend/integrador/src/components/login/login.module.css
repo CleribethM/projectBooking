@@ -1,0 +1,131 @@
+.containerLogin{
+    background-color: var(--var-containerBg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.containerLogin h1{
+    color: var(--var-btn)
+}
+
+.errorLogin{    
+    margin-bottom: 5px;
+    font-size: 14px;    
+    color: var(--var-search);
+    font-weight: 600;
+}
+
+.errorHidden{
+    font-weight: 900;
+    margin-bottom: 5px;
+    font-size: 14px;
+    visibility: hidden;
+}
+
+
+
+.formContainerLogin form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    
+} 
+
+
+.formContainerLogin form label{
+    align-self: center;
+    min-width: 300px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;   
+    color: var(--var-search);
+    
+}
+
+
+.formContainerLogin form input{
+    align-self: center;
+    min-width: 300px;    
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    box-shadow: 0px 1px 5px 0px ;
+    padding-left: 10px;
+}
+.formContainerLogin form input:focus{
+    outline: none;
+}
+
+.formButtonLogin{
+    align-self: center;
+    height: 40px;
+    min-width: 300px;
+    max-width: 300px;
+    font-size: 16px;
+    color: var(--var-containerBg);
+    background-color: var(--var-btn);
+    border: none;
+    border-radius: 5px;
+    font-weight: 700px;
+    margin: 40px 0 30px;
+    padding-top: 0;
+}
+
+.loginBottom p{
+    color: var(--var-search);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+
+
+.loginBottom span a{
+    font-size: 12px;
+    color: var(--var-btn);
+    text-decoration: none;
+}
+
+
+@media(min-width: 460px){
+
+    .formContainerLogin form label{
+        min-width: 346px; /*mobile*/
+    } 
+
+    .formContainerLogin form input{
+        min-width: 346px;
+    }   
+
+    .formButtonLogin{
+        min-width: 346px;
+        max-width: 346px;
+
+    }
+}
+
+
+
+@media(min-width: 820px){
+    
+    .formButtonLogin{
+        min-width: 206px;
+        max-width: 206px;
+
+    }
+
+    .formContainerLogin form label{
+        min-width: 448px; /*mobile*/
+    } 
+
+    .formContainerLogin form input{
+        min-width: 448px;
+    }    
+}  
+    
+    
+   
