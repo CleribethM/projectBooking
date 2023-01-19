@@ -18,5 +18,7 @@ Donde se deberá completar la informacion de la base de datos local
 Correr la aplicacion
 
 Para la Base de datos:
-Se debe cargar el script que se encuentra en la carpeta Database
+Se debe cargar el script que se encuentra en la carpeta Database y copiar el archivo Script.sql para cargar la información del sitio web
+
+Cualquier consulta contactarse con Cleribethm@gmail.com
 
